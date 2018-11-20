@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: .5em .85em;
+  text-decoration: none;
+  font-size: 1.125rem;
+  border-radius: 8px;
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.body {
+  position: relative;
+}
+
+.img-flex {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.wrap {
+  display: flex;
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  top: 30%;
+  transform: traslateY(-50%);
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
