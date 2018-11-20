@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 *, *::before, *::after {
@@ -26,12 +26,16 @@ html {
   background-color: #000;
 }
 
-.body {
+.banner {
   position: relative;
+  max-height: 500px;
+  overflow: hidden;
 }
 
-.img-flex {
+.banner .img-flex {
+  display: flex;
   width: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -49,10 +53,10 @@ body {
   transform: traslateY(-50%);
 }
 
-h2 {
+.banner h2 {
   font-size: 3rem;
 }
 
-p {
+.banner p {
   font-size: 1.5rem;
 }
