@@ -16,6 +16,7 @@ html {
   border-radius: 8px;
   background-color: #333;
   color: #fff;
+  margin-left: 2rem;
 }
 
 .btn-big {
@@ -33,9 +34,7 @@ html {
 }
 
 .banner .img-flex {
-  display: flex;
   width: 100%;
-  overflow: hidden;
 }
 
 body {
@@ -55,8 +54,19 @@ body {
 
 .banner h2 {
   font-size: 3rem;
+  margin: 0;
+  padding-left: 2rem;
 }
 
 .banner p {
   font-size: 1.5rem;
+  max-width: 45em;
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
 }
