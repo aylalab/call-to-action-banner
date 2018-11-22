@@ -9,16 +9,16 @@ html {
 
 .btn {
   display: inline-block;
-  padding: .5em .85em;
+  padding: .6em .85em;
   text-decoration: none;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   border-radius: 8px;
   background-color: #333;
   color: #fff;
 }
 
 .btn-big {
-  font-size: 1.5rem;
+  font-size: 4rem;
 }
 
 .btn:hover {
@@ -44,7 +44,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 2.5rem;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
   position: absolute;
+  width: 100%;
+  max-width: 45em;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -63,9 +68,11 @@ body {
 }
 
 .mecha {
-  width: 30%;
+  width: 33%;
+  margin-top: .5rem;
 }
 
 .text {
   width: 65%;
+  padding-left: 1.5rem;
 }
